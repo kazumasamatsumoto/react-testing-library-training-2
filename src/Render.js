@@ -7,8 +7,8 @@ const Render = () => {
       <input type="text" />
       <button>Click1</button>
       <button>Click2</button>
-      <p>Udemy</p>
-      <span data-testid="copyright">@React</span>
+      <p>Matsumoto Kazumasa</p>
+      <span data-testid="kazumasa">@React</span>
     </div>
   );
 };

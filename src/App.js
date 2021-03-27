@@ -4,6 +4,7 @@ import { Counter } from "./features/counter/Counter";
 import "./App.css";
 import RenderInput from "./RenderInput";
 import FreamworkList from "./FreamworkList";
+import MockServer from "./MockServer";
 
 function App() {
   const data = [
@@ -21,6 +22,7 @@ function App() {
         <Counter />
         <RenderInput outputConsole={output} />
         <FreamworkList frameworks={data} />
+        <MockServer />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

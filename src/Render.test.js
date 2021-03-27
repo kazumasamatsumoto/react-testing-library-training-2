@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import Render from "./Render";
 
 describe("Rendering", () => {
-  it("Should render all the elements correctly", () => {
+  it("Matsumoto Kazumasa Should render all the elements correctly", () => {
     render(<Render />);
     // screen.debug();
     // screen.debug(screen.getByRole("heading"));
@@ -12,8 +12,8 @@ describe("Rendering", () => {
     expect(screen.getAllByRole("button")[0]).toBeTruthy();
     expect(screen.getAllByRole("button")[1]).toBeTruthy();
     // screen.debug(screen.getByText("Udemy"));
-    expect(screen.getByText("Udemy")).toBeTruthy();
-    expect(screen.queryByText("Udeeeemy")).toBeNull();
-    expect(screen.getByTestId("copyright")).toBeTruthy();
+    expect(screen.getByText("Matsumoto Kazumasa")).toBeTruthy();
+    expect(screen.queryByText("Matsumoto Kiyokazu")).toBeNull();
+    expect(screen.getByTestId("kazumasa")).toBeTruthy();
   });
 });
