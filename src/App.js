@@ -5,6 +5,9 @@ import "./App.css";
 import RenderInput from "./RenderInput";
 import FreamworkList from "./FreamworkList";
 import MockServer from "./MockServer";
+import Redux from "./Redux";
+import ReduxAsync from "./ReduxAsync";
+import CustomHooks from "./CustomHooks";
 
 function App() {
   const data = [
@@ -23,6 +26,9 @@ function App() {
         <RenderInput outputConsole={output} />
         <FreamworkList frameworks={data} />
         <MockServer />
+        <Redux />
+        <ReduxAsync />
+        <CustomHooks />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
